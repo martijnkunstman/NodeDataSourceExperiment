@@ -4,6 +4,7 @@
   "description": "Experiment using Node with different DataSources: MongoDB, MySQL, Firebase, GraphQL, JSON-file",
   "main": "index.js",
   "scripts": {
+    "start": "node --env-file=.env server/main.js",
     "mongodbtest": "node --env-file=.env server/test/mongodb.js"
   },
   "author": "",
