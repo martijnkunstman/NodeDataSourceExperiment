@@ -4,7 +4,7 @@
   "description": "Experiment using Node with different DataSources: MongoDB, MySQL, Firebase, GraphQL, JSON-file",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "mongodbtest": "node --env-file=.env server/test/mongodb.js"
   },
   "author": "",
   "license": "MIT",
