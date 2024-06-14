@@ -1,0 +1,16 @@
+{
+  "name": "nodedatasourceexperiment",
+  "version": "1.0.0",
+  "description": "Experiment using Node with different DataSources: MongoDB, MySQL, Firebase, GraphQL, JSON-file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.7.0",
+    "mysql": "^2.18.1"
+  }
+}
